@@ -25,7 +25,7 @@ void inline interrupt_handler (void){
   R = random(0,20);
   G = random(0,20);
   B = random(0,20);
-  pixels.setPixelColor(i, pixels.Color(R,G,B)); // Moderately bright green color.
+  pixels.setPixelColor(i, pixels.Color(R,G,B)); // Moderately bright LED's
   pixels.show(); // This sends the updated pixel color to the hardware.
   i = i + 1;
   if (i > NUMPIXELS) i = 0; 
