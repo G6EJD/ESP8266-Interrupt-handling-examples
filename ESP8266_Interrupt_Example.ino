@@ -1,5 +1,5 @@
 /* 
-Example Timer1 Interrupt
+Example Timer0 Interrupt
 Flash LED every second
 */
 
