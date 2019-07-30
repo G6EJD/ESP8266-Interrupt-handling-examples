@@ -1,9 +1,8 @@
 /* 
 Example Timer1 Interrupt
-Flash LED every second
+Change NeoPixels under interrupt control
 */
 
-#define ledPin LED_BUILTIN
 #define timer0_preload 40161290 // Note this is an artibrary value, in most applications use 80000000 for 80MHz or 16000000 at 160MHz
                                 // to achieve a 1-sec delay/timer time-out event.
 #include <Adafruit_NeoPixel.h>
